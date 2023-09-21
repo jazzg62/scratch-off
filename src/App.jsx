@@ -325,9 +325,9 @@ function App() {
       <div className='container' ref={container} />
       <div className='menu'>
         <button className='button' onClick={() => location.reload()}>再刮一张</button>
-        <div className='scan'>
+        {/* <div className='scan'>
           <span onClick={showModal} href='mailto:kuyermqi@outlook.com'>→ 点我兑奖 ←</span>
-        </div>
+        </div> */}
       </div>
       {createPortal(modal, document.body)}
     </div>
